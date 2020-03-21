@@ -23,6 +23,7 @@ def download_model_artifacts(config: Configuration):
     )
     boto3_client.download_file(config.s3["bucket"], model_name, model_path)
 
+
 def load_model(config: Configuration):
 
     if not os.path.exists(config.model_artifact):
@@ -33,8 +34,9 @@ def load_model(config: Configuration):
     model.eval()
     return model
 
+
 def transform_image(image_bytes):
-    image = Image.open(io.BytesIO(image_bytes)).convert('L')
+    image = Image.open(io.BytesIO(image_bytes)).convert("L")
     image = np.asarray(transforms.Resize(28)(image))
     image = image.reshape(784) / 255
     return torch.Tensor(image)
