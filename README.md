@@ -19,12 +19,3 @@ Install them from `requirements.txt`:
 Run the server:
 
     python app.py
-
-## Heroku Deployment
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/celis/flask_mnist)
-
-
-## License
-
-The mighty MIT license. Please check `LICENSE` for more details.
