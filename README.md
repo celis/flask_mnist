@@ -1,6 +1,8 @@
 # flask mnist
 
-Flask application based on this [repo](https://github.com/avinassh/pytorch-flask-api-heroku).
+Flask application that classifies mnist images, as can be obtained from [here](https://www.kaggle.com/scolianni/mnistasjpg#img_103.jpg).  
+
+Flask code based on this [repo](https://github.com/avinassh/pytorch-flask-api-heroku).
 
 Check the demo [here](https://pytorch-imagenet.herokuapp.com/).
 
