@@ -4,7 +4,7 @@ Flask application that classifies mnist images, as can be obtained from [here](h
 
 Flask code based on this [repo](https://github.com/avinassh/pytorch-flask-api-heroku).
 
-Check the demo [here](https://pytorch-imagenet.herokuapp.com/).
+Check the demo [here](https://flask-mnist-app.herokuapp.com).
 
 Model training in this [repo](https://github.com/celis/mnist).
 
