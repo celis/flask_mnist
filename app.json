@@ -1,0 +1,6 @@
+{
+  "name": "flask mnist",
+  "description": "mnist classifier built using PyTorch",
+  "repository": "https://github.com/celis/flask_menist",
+  "keywords": ["python", "flask", "pytorch", "bootstrap"]
+}

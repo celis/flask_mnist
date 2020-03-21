@@ -1,0 +1,6 @@
+__pycache__/
+.webassets-cache
+*.ipynb
+.idea
+.DS_Store
+config.ini
