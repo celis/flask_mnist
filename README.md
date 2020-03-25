@@ -4,7 +4,8 @@ Flask application that classifies MNIST images.  Images can be obtained from [he
 
 Flask web application code and frontend largely based on this [repo](https://github.com/avinassh/pytorch-flask-api-heroku).
 
-Model training code can be found in this [repo](https://github.com/celis/mnist).
+Model training code can be found in this [repo](https://github.com/celis/mnist).  
+A demonstration of the application can be found [here](https://celis.github.io/personal/jupyter/2020/03/22/flask-mnist.html).
 
 ## Requirements
 
